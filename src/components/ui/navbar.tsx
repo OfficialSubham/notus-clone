@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full border-b border-b-neutral-100 top-0 relative">
-      <div className="h-20 flex items-center justify-between max-w-5xl mx-auto px-2">
+      <div className="h-20 flex items-center justify-between max-w-7xl mx-auto px-2">
         <div className="font-bold text-2xl">LOGO</div>
         <div className="flex gap-6">
           {links.map((li) => {

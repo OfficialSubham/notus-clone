@@ -1,10 +1,13 @@
-import { Container, Navbar } from "@/components/index";
+import { Container, Navbar, Section, SeperationLine } from "@/components/index";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Container>hello</Container>
+      <Container>
+        <Section>hello</Section>
+        <SeperationLine />
+      </Container>
     </>
   );
 }
