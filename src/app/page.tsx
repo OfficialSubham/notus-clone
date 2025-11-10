@@ -1,3 +1,10 @@
+import { Container, Navbar } from "@/components/index";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return (
+    <>
+      <Navbar />
+      <Container>hello</Container>
+    </>
+  );
 }
